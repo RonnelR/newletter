@@ -44,7 +44,7 @@ const url = process.env.node_url
 const options = {
 
      method:"post",
-     auth: process.env.node_auth
+     auth: "Ronnel:" + process.env.node_auth
 
 }
 
