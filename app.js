@@ -40,11 +40,11 @@ app.post("/",function(req,res){
 
 const jsonData = JSON.stringify(data);
 
-const url = process.env.node_url
+const url = "https://us21.api.mailchimp.com/3.0/lists/7d3550bddb"
 const options = {
 
      method:"post",
-     auth: "Ronnel:" + process.env.node_auth
+     auth: "Ronnel:3583cdfac14d74dcbfd7fd48d8be755c-us21"
 
 }
 
@@ -79,4 +79,4 @@ console.log("server is running in port 3000!!");
 // 7d3550bddb
 
 //api key
-//6ea156d203aa7bef35589e794af9bdb0-us21
+//3583cdfac14d74dcbfd7fd48d8be755c-us21
