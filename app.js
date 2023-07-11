@@ -40,11 +40,11 @@ app.post("/",function(req,res){
 
 const jsonData = JSON.stringify(data);
 
-const url = "https://us21.api.mailchimp.com/3.0/lists/7d3550bddb"
+const url = process.env.node_url
 const options = {
 
      method:"post",
-     auth:"Ronnel:6ea156d203aa7bef35589e794af9bdb0-us21"
+     auth: process.env.node_auth
 
 }
 
